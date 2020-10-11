@@ -1,0 +1,15 @@
+.banner {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.heading {
+    color: black;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+
+}
+
