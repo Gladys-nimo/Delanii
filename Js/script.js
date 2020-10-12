@@ -31,12 +31,3 @@ $(document).ready(function(){
     });
 });
 
-$(document).ready(function(){
-    $("work-one").mouseover(function(){
-        $("#img").show();
-        .mouseout(function(){
-            $("img").hide();
-        });
-
-    });
-});

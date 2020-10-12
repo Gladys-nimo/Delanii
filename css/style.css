@@ -67,12 +67,22 @@
 #who-are {
     padding-bottom: 38px;
 }
+.company{
+    display: none;
+    font-size: 16px;
+}
 .portfolio{
     display: flex;
     align-items: center;
     margin-left: 20px;
     margin-right: 17px;
     flex-wrap: wrap;
+}
+.develop-image{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
 }
 #head {
     padding-top: 30px;
@@ -83,7 +93,7 @@
     max-height: 100%;
 }
 
-#img {
+#img1, #img2, #img3, #img4, #img5, #img6, #img6, #img7, #img8  {
     display: none;
     columns: white;
     width: 120%;
@@ -100,6 +110,12 @@
     background-position: center;
     background-repeat: no-repeat;
     color: white;
+}
+.contact h1{
+    text-align: center;
+    margin: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
    
 
