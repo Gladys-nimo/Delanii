@@ -94,34 +94,9 @@
 .row {
     padding: 2%;
 }
-/* .image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-}
-.overlay {
-    opacity: 0;
-    transition:all .5s ease;
-    position: absolute;
-  
-    
-    text-align: center;
-}
-#work-one, #work-two:hover .image {
-    opacity: 0.3;
-}
-#work-one:hover .overlay {
-    opacity: 1;
-} */
-/* .develop-image{
-    display: flex;
-    align-items: center;
-    flex-direction: column; */
 
-}
+
+
 #portfolio{
     display: flex;
     flex-wrap: wrap;
