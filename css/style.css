@@ -67,9 +67,9 @@
 #who-are {
     padding-bottom: 38px;
 }
-.company{
+.hide{
     display: none;
-    font-size: 16px;
+    
 }
 .portfolio{
     display: flex;
@@ -77,6 +77,28 @@
     margin-left: 20px;
     margin-right: 17px;
     flex-wrap: wrap;
+}
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.overlay {
+    opacity: 0;
+    transition:all .5s ease;
+    position: absolute;
+  
+    
+    text-align: center;
+}
+#work-one, #work-two:hover .image {
+    opacity: 0.3;
+}
+#work-one:hover .overlay {
+    opacity: 1;
 }
 .develop-image{
     display: flex;
@@ -91,19 +113,6 @@
 .col-md-3 img{
     max-width: 100%;
     max-height: 100%;
-}
-
-#img1, #img2, #img3, #img4, #img5, #img6, #img6, #img7, #img8  {
-    display: none;
-    columns: white;
-    width: 120%;
-    height: 120%;
-    position: absolute;
-    top: 20px;
-    left: 35px;
-    font-size: 30px;
-
-    
 }
 .contact {
     background-image: url(../img/backgrounds/c_image.jpg);

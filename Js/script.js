@@ -4,4 +4,4 @@ $(document).ready(function(){
        $("#design-show").toggle();
     });
         
-    ))"
+    )};
