@@ -6,20 +6,22 @@
     <title>Delani studio</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/bootstrap.css">
-    
+    <script src="./Js/jquery-3.5.1.js"></script>
+
     <script src="./Js/script.js"></script>
     </head>
 
 <body>
     <div class="container">
          
-       <img src="./img/logo/logo.png" class="logo">
+       <img src="./img/logo/logo.png" id="logo">
        
       
        <h1>WELCOME</h1>
         <h2>TO DELANI STUDIO</h2>
         <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-        <div class="mouse"></div>
+        <div class="mouse-chip"> </div>
+        <img src="./img/mouse_click.png" alt="">
 
 
     </div>
@@ -27,8 +29,8 @@
   
     <!--About section-->
 
-    <div>
-        <h1 class="about">ABOUT US</h1>
+    <div class="about">
+        <h1>ABOUT US</h1>
         <p>When you work with us, you are part of a team of commited collabrators. All aspects of our software development process are integrated, interactive and agile.</p>
         <p>Our approach unifies design, development and product management to create exceptional products.</p>
        <p>we start each projcet by understing your business goals, the users needs and the product requirements.
@@ -40,9 +42,13 @@
 
     <div class="service">
  <h1>SERVICES</h1>
-        <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision</p>
-        Then outcome of the scoping session is proposal or high-level statement of work based on your requirement, we can provide a complete offering or just the pieces you need.<
-        </p>
+        <p>Before we sign a contract or write a line 
+        of code our team will spend the necessary time needed to 
+        understand your product vision</p>
+        <p>Then outcome of the scoping session is proposal
+        or high-level statement of work based on your requirement, we can 
+        provide a complete offering or just the pieces you need.</p>
+       
         </div>
 
         <!--end of service section-->
@@ -96,8 +102,8 @@
 
 
 <!--porfolio section-->
-<div>
-  <h3>PORTFOLIO</h3>
+<div class="portfolio">
+  <h3 id="head">PORTFOLIO</h3>
 <div class="row">
     <div class="col-md-3" id="work-one">
         <img src="./img/portfolio/work1.jpg" alt="">
@@ -138,35 +144,39 @@
 
     <div class="col-md-3" id="work-eight">
         <img src="./img/portfolio/work8.jpg" alt="">
-        <p></p>
+        <p>brand restaurant</p>
     </div>
 
 </div>
-
-
-
-
-
-
-
 </div>
-
-
-
-
-
-
-
-
-
-
-
-    <!--end of portfolio section-->
+<!--end of portfolio section-->
     
 
-    <div>
+    <div class="contact">
         <h1>contact us</h1>
+        <form>
+            <div class="form-group">
+                <label for="inputyourname">Name</label>
+                <input type="text" class="form-control" id="exampleInputName">
+            </div>
+
+            <div class="form-group">
+                <label for="inputyourname">Email address</label>
+                <input type="text" class="form-control" id="exampleInputEmailaddress">
+            </div>
+            <div class="form-group">
+                <textarea name="your message" id="" cols="30" rows="10">
+
+                </textarea>
+
+            </div>
+        </form>
     </div>
     </div>
+    <!--footer-->
+    
+
+
+
 </body>
 </html>
