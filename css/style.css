@@ -70,9 +70,20 @@
 
 
 
-.hide{
+
+#design-show-image, #develop-show-image, #product-show-image {
     display: none;
     
+}
+/* .hide1{
+    display: none;
+} */
+.clickable1, .clickable2, .clickable3 {
+    cursor: pointer;
+   
+}
+.clickable:hover {
+    text-decoration: black;
 }
 .portfolio{
     font-family: 'Peddana', serif;
