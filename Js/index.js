@@ -15,9 +15,4 @@ $(document).ready(function() {
       });
    });
 
-//$(document).ready(function() {//
-//    $(".clickable").click(function(){
-//       $("#develop-show-image").toggle();
-//       $(".hide").toggle();
-//    });
-// });
+
