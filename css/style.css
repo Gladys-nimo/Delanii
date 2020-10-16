@@ -31,6 +31,27 @@
     font-family: font-family: 'Peddana', serif;;
     
 }
+.mouse-chip{
+    padding-top: 22px;
+    margin-bottom: 24px;
+    width: 70px;
+    height: 70px;
+}
+/* animation-iteratoin */
+.mouse-chip {
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-54px);
+    }
+    60% {
+        transform: translateY(-45px);
+    }
+}
 
 .about {
     text-align: center;
@@ -56,6 +77,7 @@
     padding-bottom: 9%;
     font-family: 'Peddana', serif;
     text-align: center;
+
 }
 .service h1 {
     text-align: center;
@@ -144,21 +166,28 @@
     padding-top: 50px;
     padding-bottom: 30px;
 }
-input[type=text],input[type=email],#comment{
+input[type=text],input[type=email], #comment{
     background: transparent;
     color: white;
     font-size: 20px;
 }
-.form-control::-webkit-input-placeholder {
+/* .place-holder {
+   background: transparent;
     color: white;
-}
+    font-size: 20px;
+} */
+/* .form-control::-webkit-input-placeholder {
+    color: white;
+} */
 #merge1{
-    width: 30%;
-    margin-left: 18%;
-    margin-right: 30px;
+    width: 84%;
+    margin-left: 4%;
+    margin-right: 20px;
 }
-.merge0{
-    width: 30%;
+#merge0{
+    width: 84%;
+    margin-left: 4%;
+    margin-right: 20px;
 }
 #comment{
     margin-left: 20%;
