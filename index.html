@@ -10,8 +10,15 @@
     src="https://code.jquery.com/jquery-3.5.1.js"
     integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
     crossorigin="anonymous"></script>
-    <script src="./Js/script.js"></script>
+    <!-- <script src="./Js/script.js"></script> -->
     <script src="./Js/index.js"></script>
+    <script>
+      function alertpopup()
+      {
+       alert("Thank you for reaching to us. we have recived your message");
+       
+      }
+    </script>
     </head>
 
 <body>
@@ -147,25 +154,29 @@
 
     <div class="contact">
         <h1>contact us</h1>
-        
+
         <form id="myForm" action="https://gmail.us2.list-manage.com/subscribe/post" method="POST">
           <input type="hidden" name="u" value="dffa3a8830dc8cfa2dd469acb">
           <input type="hidden" name="id" value="a916e73a8c">
            <div class="form-group">
                 <label for="inputyourname"></label>
-                <input type="email" class="form-control" placeholder="email..." autocapitalize="off" autocorrect="off" name="merge0" id="merge0" size="25">
-                <input type="text" class="form-control" placeholder="Name..." name="merge1" id="merge1" size="25">
+                <input type="email" class="form-control" placeholder="email..." autocapitalize="off" autocorrect="off" name="merge0" id="merge0">
+                <input type="text" class="form-control" placeholder="Name..." name="merge1" id="merge1">
             </div>
             <div class="form-group">
                 <textarea rows="8" class="form-control" id="comment" placeholder="your message here...."></textarea>
-
+<!-- <input type="button" value="alert" onclick="alertpopup()"> -->
             </div>
-            <button type="submit" class="">submit</button>
-        </form>
+            <button type="submit" class="button" onclick="alertpopup()">
+        
+              submit
+              
+            </button>
+        </form> 
     </div>
     </div>
     <!--footer-->
-    <footer>
+    <footer class="foot">
     <img src="./img/social_icons/behance.png" alt="">
     <img src="./img/social_icons/dribble.png" alt="">
     <img src="./img/social_icons/facebook.png" alt="">
