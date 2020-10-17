@@ -1,13 +1,8 @@
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap" rel="stylesheet">
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-
-}
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+ 
    
 .container {
-    background-image: url(../img/backgrounds/h_img.jpg);
+ background-image: url(../img/backgrounds/h_img.jpg);
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
@@ -91,7 +86,7 @@
 .doings {
     text-align: center;
     padding-top: 40px;
-    font-family: 'Peddana', serif;
+    font-family: 'Inconsolata', monospace;
 }
 
 
@@ -233,5 +228,4 @@ input[type=text],input[type=email], #comment{
       left: 16px;
       padding-top: 20%;
     }
-   
-
+}
